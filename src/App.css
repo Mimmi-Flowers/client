@@ -1,31 +1,52 @@
 .App {
+  font-family: "HattonUltralight";
   text-align: center;
 }
 
+.App-name {
+  font-family: "HattonUltralight";
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    color: white;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #edc7f5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000000;
+}
+
+.App-txt {
+  font-size: 2.5rem;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+  border: solid;
+  border-width: 1px;
+  text-decoration: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.App-link:hover {
+  font-family: "HattonMedium";
+  transition: 0.5s;
 }
 
 @keyframes App-logo-spin {
