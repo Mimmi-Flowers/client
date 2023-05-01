@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "HattonMedium";
+  src: local("HattonMedium"),
+  url("./fonts/Hatton/PP-Hatton-Medium-500.otf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "HattonUltralight";
+  src: local("HattonUltralight"),
+  url("./fonts/Hatton/PP-Hatton-Ultralight-200.otf") format("truetype");
+  font-weight: 200;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

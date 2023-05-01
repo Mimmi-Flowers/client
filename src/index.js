@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Hatton/PP-Hatton-Medium-500.otf';
+import './fonts/Hatton/PP-Hatton-Ultralight-200.otf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
