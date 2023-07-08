@@ -16,22 +16,22 @@
 
 ---
 
-### Shoping cart
+### Shopping cart
 - [ ] **Header**
 - [ ] **Cart list with product items**
 - [ ] **Link to checkout**
 - [ ] **Possibility to increase/decrease amount of items**
-- [ ] **Possibility to delete item from shoping cart**
+- [ ] **Possibility to delete item from shopping cart**
 - [ ] **Footer**
 
 ---
 
-### Shoping cart mini
-- [ ] **Shoping cart in minmized window on a screen**
+### Shopping cart mini
+- [ ] **Shopping cart in minmized window on a screen**
 - [ ] **Link to checkout**
 - [ ] **Cart list with product items**
 - [ ] **Possibility to increase/decrease amount of items**
-- [ ] **Possibility to delete item from shoping cart**
+- [ ] **Possibility to delete item from shopping cart**
 
 ---
 

@@ -1,59 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  font-family: "HattonUltralight";
-  text-align: center;
-}
-
-.App-name {
-  font-family: "HattonUltralight";
-}
-
-.App-logo {
-  height: 30vmin;
-  pointer-events: none;
-  color: white;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    color: white;
-  }
-}
-
-.App-header {
-  background-color: #edc7f5;
+  width: 100vw;
+  height: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #fff;;
   color: #000000;
 }
 
-.App-txt {
-  font-size: 2.5rem;
+.App__wrapper {
+  width: 100vw;
+  max-width: 1440px;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
 }
 
-.App-link {
-  color: #000000;
-  border: solid;
-  border-width: 1px;
-  text-decoration: none;
-  padding: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.App-link:hover {
-  font-family: "HattonMedium";
-  transition: 0.5s;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Page-content {
+  padding-bottom: 5rem;
 }

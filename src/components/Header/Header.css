@@ -1,4 +1,4 @@
-.App-Header {
+.App-header {
     width: 100%;
     height: 10vh;
     background-color: #edc7f5;
@@ -8,7 +8,6 @@
 }
 
 .Header-title {
-    /* font-family: "HattonMedium"; */
     font-size: 2rem;
     text-decoration: none;
     color: #000000;
