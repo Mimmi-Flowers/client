@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import data1 from '../../db/Favorite.json';
-import data2 from '../../db/Season.json'; 
 import './Specials.css';
 
 const Specials = ({ setting }) => {
@@ -11,13 +9,12 @@ const Specials = ({ setting }) => {
 
         switch (setting) {
             case 'Favorite':
-                const res1 = await axios.get('/home/lymgo/Work/MimmiFlowers/client/src/db/Favorite.json')
-                console.log('Favorite:', res1)
+                const res1 = await axios.get('http://localhost:8500/favorite')
                 setData(res1.data.data)
                 break;
             case 'Season':
-                // const res2 = await fetch('../../db/Season.json')
-                setData(data2.data)
+                const res2 = await axios.get('http://localhost:8500/season')
+                setData(res2.data.data)
                 break;
             default: 
                 setData(['Something went wrong']);
@@ -32,7 +29,12 @@ const Specials = ({ setting }) => {
     return (
         <div className='Specials-container'>
             <h2>{setting}</h2>
-            {data.map(data => <div key='{data.name}'>{data.name}</div>)}
+            {data.map(data => <div className='Bouquet' key={data.name}>
+                                <h3 className='Bouquet-name'>{data.name}</h3>
+                                <img src={data.picture} alt={data.name} />
+                                <p className='Bouquet-desc'>{data.description}</p>
+                                <h4 className='Bouquet-price'>Price: {data.price}</h4>
+                            </div>)}
         </div>
     );
 };
