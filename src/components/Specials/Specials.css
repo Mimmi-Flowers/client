@@ -1,0 +1,26 @@
+.Specials-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* remove when done */
+    border: solid 1px black;
+}
+
+.Specials-container_category {
+    /* Some css */
+    margin: 1vh;
+    border: solid 1px black;
+}
+
+.Specials-container_bouquets {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+    border: solid 1px black;
+}
