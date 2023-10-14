@@ -21,7 +21,7 @@ const App = () => {
             <Route path='/Product/:id' element={<ProductPage />} />
           </Routes>
         </div>
-        <CookiePrompt />
+        {/* <CookiePrompt /> */}
         <Footer />
       </div>
     </div>

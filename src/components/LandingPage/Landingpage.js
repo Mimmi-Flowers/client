@@ -5,7 +5,6 @@ import './LandingPage.css';
 function LandingPage() {
   return (
     <div className='Landing-page-container'>
-      <div>LandingPage</div>
       <Specials setting={'Favorite'} />
       <Specials setting={'Season'} />
     </div>
