@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SpecialsItem.css';
+import './ProductListItem.css';
 
-const SpecialsItem = ({ bouquet }) => {
+function ProductListItem({ bouquet }) {
     const navigate = useNavigate();
 
     const handleRedirect = e => {
@@ -21,4 +21,4 @@ const SpecialsItem = ({ bouquet }) => {
     )
 };
 
-export default SpecialsItem;
+export default ProductListItem;
