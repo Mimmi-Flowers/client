@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SpecialsItem.css';
+import './BouquetCard.css';
 
-const SpecialsItem = ({ bouquet }) => {
+function BouquetCard({ bouquet }) {
     const navigate = useNavigate();
 
     const handleRedirect = e => {
@@ -16,9 +16,9 @@ const SpecialsItem = ({ bouquet }) => {
             {/* <h3 className='Bouquet-name'>{bouquet.name}</h3> */}
             <img className='Bouquet-img' src={bouquet.picture} alt={bouquet.name} />
             <h4 className='Bouquet-price'>{bouquet.price}kr</h4>
-            <p className='Bouquet-desc'>{bouquet.description}</p>
+            <p className='Bouquet-desc'>{bouquet.name}</p>
         </div>
     )
 };
 
-export default SpecialsItem;
+export default BouquetCard;

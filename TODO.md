@@ -3,11 +3,11 @@
 ## 1. Client
 
 ### Landing page
-- [ ] **Header**
+- [x] **Header**
 - Header includes Shop logo which can be used as **Home** link. Links to **Flowers**, **Cart**, **Contact**, **About us** and may be to user profile.
 - [ ] **Deal/News carusel**
 - Carusel shows up actual deals and news about the shop. It is the first thing, that customers see when they enter the website.
-- [ ] **Popular items**
+- [x] **Popular items**
 - Popular items shows popular products to let visitor see part of what shop offers and make a quick buy if needed.
 - [ ] **Categories**
 - Categories divides all products by different types to help customer make easier choice. By clicking on category customers enters **Flowers** with firtering category of their choice.
@@ -46,9 +46,9 @@
 ---
 
 ### Product list
-- [ ] **Header**
+- [x] **Header**
 - [ ] **Category filter (additional filter might be needed)**
-- [ ] **Items which are available to oreder**
+- [x] **Items which are available to oreder**
 - [ ] **Pegination or endless scrolling**
 - [ ] **Footer**
 

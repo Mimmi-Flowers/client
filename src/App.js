@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Header from './components/ReusableComponents/Header/Header';
+import Footer from './components/ReusableComponents/Footer/Footer';
 import LandingPage from './components/LandingPage/Landingpage';
 import ProductListPage from './components/ProductListPage/ProductListPage';
 import ProductPage from './components/ProductPage/ProductPage';
-import CookiePrompt from './components/CookiePrompt/CookiePrompt';
+import CookiePrompt from './components/ReusableComponents/CookiePrompt/CookiePrompt';
 import './App.css';
 import './fonts/fonts.css';
 

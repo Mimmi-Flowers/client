@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react';
-import ProductListItem from '../ProductListItem/ProductListItem';
+import ProductListItem from '../../ReusableComponents/BouquetCard/BouquetCard';
 import axios from 'axios';
 import './ProductList.css';
 

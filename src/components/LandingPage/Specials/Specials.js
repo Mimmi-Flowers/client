@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SpecialsItem from '../SpecialsItem/SpecialsItem';
+import SpecialsItem from '../../ReusableComponents/BouquetCard/BouquetCard';
 import axios from 'axios';
 import './Specials.css';
 
